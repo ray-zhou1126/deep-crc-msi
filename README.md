@@ -1,1 +1,3 @@
 # deep-crc-msi
+The framework gathers the codes that have been used to study the use of deep learning architecture to identify MSI-H Colorectal cancer from H&E histopathological slices.
+We obtained the digital H&E histopathological slices from TCGA to train the deep learning model and collected histopathological slices of CRC patients from Zhujiang Hospital of Southern Medical University as an independent dataset. First, we used VGG19 to indentify tumors from normal tissues of each slides, and then compared the performance of different deep learning modes to chose the best network for predicting MSI-H CRC. Finally, resnet was used to discriminate MSI-H samples from MSS/MSI-L samples, to screen potential patients who are more likely to benefit from ICIs. 
